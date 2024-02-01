@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: url(main\ image\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+    z-index: 10; 
+    object-fit: cover;
+
+}
+
+
+
+
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+  
+
+}
+
+nav h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.30rem;
+
+}
+
+nav h1:hover {
+    color: rgb(238, 191, 105);
+    transition: all 1s ease-in-out;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    list-style-type: none;
+    transition: all 1s ease-out;
+
+
+}
+
+nav ul a {
+    color:rgb(242, 159, 4);
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    z-index: 10;
+    font-weight: 300;
+    letter-spacing: 0.20rem;
+    font-weight: 700;
+
+
+}
+
+nav ul :hover {
+    scale: 110%;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+
+}
+
+
+
+.btn {
+    background-color: rgb(238, 194, 113);
+    height: 35px;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    z-index: 10px;
+    font-size: larger;
+    font-weight: 500;
+    transition: 0.4s;
+    color:white;
+
+}
+
+.btn:hover {
+    color: rgb(255, 242, 96);
+    scale: 105%;
+
+}
+
+.info {
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+
+}
+
+
+.info div {
+    margin: 0 20px;
+
+}
+
+.info div h2 {
+    font-size: 44px;
+    font-weight: 400;
+
+}
+
+.info .line {
+    flex: 1;
+    background: #fff;
+    height: 4px;
+
+}
+
+#model {
+
+    font-size: 44px;
+    font-weight: 400;
+
+}
+
+#model:hover {
+    text-decoration: underline;
+  color: burlywood;   
+  scale:105%;
+
+}
